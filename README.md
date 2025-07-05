@@ -62,7 +62,7 @@ feedback-system/
 git clone https://github.com/your-username/feedback-system.git
 cd feedback-system
 
-###2. 🔧 Backend Setup (server/)
+2. 🔧 Backend Setup (server/)
 
 cd server
 npm install
@@ -72,7 +72,7 @@ npm install
 MONGO_URI=mongodb://localhost:27017/feedback-db
 PORT=5000
 
-#Start MongoDB (Linux):
+Start MongoDB (Linux):
 
 sudo systemctl start mongod
 
