@@ -49,7 +49,7 @@ feedback-system/
 │   ├── server.js
 │   └── package.json
 │
-└── README.md give all the codes of above
+└── README.md
 
 
 ---
@@ -62,4 +62,21 @@ feedback-system/
 git clone https://github.com/your-username/feedback-system.git
 cd feedback-system
 
-#2. 🔧 Backend Setup (server/)
+###2. 🔧 Backend Setup (server/)
+
+cd server
+npm install
+
+##Create a .env file:
+
+MONGO_URI=mongodb://localhost:27017/feedback-db
+PORT=5000
+
+#Start MongoDB (Linux):
+
+sudo systemctl start mongod
+
+#Run the backend:
+npm start
+
+###3. 🎨 Frontend Setup (client/)
