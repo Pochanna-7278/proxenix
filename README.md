@@ -27,4 +27,39 @@ A modern web application for collecting, managing, and analyzing feedback from u
 ---
 
 ## 📁 Project Structure
+feedback-system/
+│
+├── client/                   # React Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── FeedbackForm.jsx
+│   │   ├── pages/
+│   │   │   └── Dashboard.jsx
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+│
+├── server/                   # Node Backend
+│   ├── controllers/
+│   │   └── feedbackController.js
+│   ├── models/
+│   │   └── Feedback.js
+│   ├── routes/
+│   │   └── feedbackRoutes.js
+│   ├── server.js
+│   └── package.json
+│
+└── README.md give all the codes of above
 
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. 📁 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/feedback-system.git
+cd feedback-system
+
+#2. 🔧 Backend Setup (server/)
