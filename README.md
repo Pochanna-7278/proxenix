@@ -80,3 +80,39 @@ sudo systemctl start mongod
 npm start
 
 ###3. 🎨 Frontend Setup (client/)
+cd ../client
+npm install
+npm start
+
+Open in browser:
+http://localhost:3000
+📊 Feedback Form Fields
+
+    Name
+
+    Email
+
+    Category (Dropdown)
+
+    Feedback Message
+
+    Rating (1 to 5 stars)
+
+📈 Future Enhancements
+
+    Admin login and feedback moderation
+
+    Download feedback reports (CSV, PDF)
+
+    Notifications for new feedback
+
+    Email integration
+
+    Mobile app support
+
+🤝 Contributions
+
+Pull requests are welcome! Feel free to fork and submit improvements.
+📄 License
+
+This project is licensed under the MIT License.
